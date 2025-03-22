@@ -318,7 +318,7 @@ button:hover {
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.service-container {
     background: linear-gradient(to right, #0044cc, #007bff);
     color: white;
     justify-content: center;
@@ -441,12 +441,12 @@ footer {
     padding: 20px;
     text-align: center;
 }
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     nav {
         flex-direction: column;
         align-items: flex-start;
     }
-
+  /*NAV BAR MENU*/
     label #btn {
         display: block;
     }
@@ -492,51 +492,11 @@ footer {
     #check:checked ~ label #cancel {
         display: block;
     }
-    /* Apply styles to mobile screens */
-@media screen and (max-width: 480px) {
-    .university-container {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
-
-    .university {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .university img {
-        max-width: 90%;
-        height: auto;
-    }
-
-    .text-box {
-        width: 90%;
-        text-align: center;
-    }
 }
-@media screen and (max-width: 480px) {
-    .formcontainer {
-        width: 95%; /* Ensure it fits on smaller screens */
-        padding: 15px;
-    }
-
-    .btn {
-        margin-left: 0; /* Remove margin to center properly */
-        text-align: center;
-    }
-}
-}
-@media (max-width: 768px) {
-    .team {
-        flex-direction: column; /* Stack cards in a column on mobile */
-        align-items: center;
-    }
-
-    .member {
-        width: 90%; /* Make it responsive on smaller screens */
-        height: auto; /* Adjust height dynamically */
-    }
+@media (max-width: 480px) {
+ .service-container{
+    padding: 3%;
+    align-items: center;
+    margin: 7%;
+ }
 }
