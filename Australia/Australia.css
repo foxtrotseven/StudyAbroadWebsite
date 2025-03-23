@@ -238,3 +238,82 @@ th {
     background-color: #3498DB;
     color: white;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .container1, .container2, .container3 {
+        width: 90%;
+    } 
+
+    .info-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-item {
+        width: 80%;
+    }
+
+    .intake-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .intake-container {
+        width: 45%;
+    }
+
+    .intake-container img {
+        width: 100%;
+    }
+
+    .intake-text {
+        font-size: 24px;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .container1, .container2, .container3 {
+        width: 95%;
+    }
+
+    .info-item {
+        width: 100%;
+    }
+
+    .intake-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intake-container {
+        width: 90%;
+    }
+
+    .intake-container img {
+        width: 100%;
+    }
+
+    .intake-text {
+        font-size: 20px;
+        padding: 8px 20px;
+    }
+
+    .styled-table {
+        font-size: 14px;
+        margin: 0%;
+    }
+}

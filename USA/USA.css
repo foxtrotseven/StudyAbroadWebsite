@@ -356,7 +356,7 @@ button:hover {
 @media (max-width: 1024px) {
     .container1, .container2, .container3 {
         width: 90%;
-    }
+    } 
 
     .info-box {
         flex-direction: column;
