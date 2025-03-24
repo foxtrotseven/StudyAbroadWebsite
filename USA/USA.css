@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: ;
  
 }
 /* navbar menu check box */
@@ -352,7 +353,61 @@ button:hover {
     background-color: #0056b3;
 }
 
+
+/* Visa Section Styling */
+.visa-section {
+    background: #ffffff;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Headings */
+.visa-section h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.visa-section h3 {
+    color: #007bff;
+    margin-top: 20px;
+}
+
+/* Lists */
+.visa-types, .visa-checklist, .visa-process {
+    margin-left: 20px;
+}
+
+.visa-types li, .visa-checklist li, .visa-process li {
+    margin-bottom: 10px;
+}
+
+/* Strong Elements */
+strong {
+    color: #007bff;
+}
+
+/* Alert Box */
+.alert {
+    background-color: #e9f5ff;
+    border-left: 5px solid #007bff;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+
 /* Responsive Styles */
+/* Responsive */
+@media (max-width: 768px) {
+    .visa-section {
+        padding: 15px;
+    }
+}
 @media (max-width: 1024px) {
     .container1, .container2, .container3 {
         width: 90%;
